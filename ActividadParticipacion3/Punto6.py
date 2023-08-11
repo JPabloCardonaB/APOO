@@ -6,12 +6,14 @@ Defina 4 constantes que representan los nombres de las 4 pintas que puede tener 
 
 class Carta():
     
-    DIAMANTE = "Diamantes"
-    PICA = "Pica"
-    CORAZON = "Corazón"
-    TREBOL = "Trébol"
+    #Definicion de constantes
+    
+    DIAMANTE = "PINTA_DIAMANTE"
+    PICA = "PINTA_PICA"
+    CORAZON = "PINTA_CORAZON"
+    TREBOL = "PINTA_TREBOL"
     
     def __init__(self, valor, pinta):
-        self.valor = 0
-        self.pinta = ""
+        self.valor = valor
+        self.pinta = pinta
     
